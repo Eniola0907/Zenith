@@ -1,0 +1,117 @@
+html, body {
+   width: 100%; 
+    background-color: white;
+    font-family: sans-serif;
+    min-height: 1vh;
+    max-height: 1vh;
+}
+
+
+.banner {
+    width: 100%;    
+}
+
+.banner > nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > #top-left {
+    width: 50%;
+    }
+
+form { 
+    width: 80vw;
+  max-width: 1000px;
+    min-width: 400px;  
+   margin: auto; 
+    padding: auto;
+    display: block;
+}
+
+label {
+    display: flex;
+    margin: 2px;
+    padding: auto;
+
+}
+ 
+div input {
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 13px;
+}
+
+INPUT[type="submit"] {
+    width: 98%;
+    margin: 15px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+}
+
+label .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+label:last-of-type {
+    display: block;
+    width: unset;
+}
+
+input:hover {
+border-color: red;
+}
+
+
+p {
+    margin: 100px;
+    text-align: center;
+    position: relative;
+    bottom: -300px;
+    font-size: large;
+    color: grey;
+}
+
+div {
+  display: flex; 
+ width: 100%; 
+  padding: auto; 
+} 
+    
+#top-right {
+    position: relative;
+    left: -20px;
+    top: 50px;
+    height: 50%;
+}
+
+#top-left {
+    position: relative;
+    left: 1px;
+    height: 80%;
+}
+#top-center {
+    position: relative;
+    right: -370px;
+    top: -70px;
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 20px; 
+}
+
+#bottom-left {
+    position: relative;
+    right: -525px;
+}
